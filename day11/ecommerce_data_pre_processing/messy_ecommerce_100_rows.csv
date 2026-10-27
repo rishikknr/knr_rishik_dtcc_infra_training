@@ -1,0 +1,101 @@
+﻿order_id,customer_id,customer_name,email,order_date,product_id,category,product_name,quantity,unit_price,discount_pct,shipping_fee,payment_method,order_status,city,state,postal_code,total_amount
+ORD1001,C0016,Aarav Kumar,aarav.kumar95@gmail.com,2026-06-23,P102,Electronics,Bluetooth Headphones,2,1999,20,0,Net Banking,Delivered,Chennai,Tamil Nadu,600001,3198.4
+ORD1002,C0002,Kabir Sharma,kabir.sharma26@gmail.com,2026-05-24,P110,Home,Desk Lamp,2,1299,0,0,Net Banking,Cancelled,Hyderabad,Telangana,500001,2598.0
+ORD1003,C0052,Isha Kumar,,2026-03-29,P104,Home,Water Bottle,2,349,20,80,Credit Card,Shipped,Hyderabad,Telangana,500001,638.4
+ORD1004,C0025,Diya Reddy,diya.reddy6@gmail.com,2026-07-26,P106,Grocery,Coffee Powder,3,450,5,60,COD,Returned,Hyderabad,Telangana,500001,1342.5
+ORD1005,C0006,Nikhil Das,nikhil.das25@gmail.com,2026-05-28,P102,Electronics,Bluetooth Headphones,,1999,20,60,UPI,Delivered,Delhi,Delhi,110001,4857.6
+ORD1006,C0006,Kiran Kumar,kiran.kumar82@gmail.com,2026-04-27,P104,Home,Water Bottle,1,349,10,60,Debit Card,Shipped,Chennai,Tamil Nadu,600001,374.1
+ORD1007,C0043,Meera Singh,meera.singh94@gmail.com,2026-05-17,P106,Grocery,Coffee Powder,1,"₹1,999",15,40,Credit Card,Shipped,Bengaluru,Karnataka,560001,422.5
+ORD1008,C0041,Kabir Kumar,kabir.kumar99@gmail.com,2026-08-04,P108,Electronics,USB-C Cable,5,299,0,60,UPI,Shipped,Pune,Maharashtra,411001,1555.0
+ORD1009,C0026,Kiran Rao,kiran.rao84@gmail.com,03/14/2026,P101,Electronics,Wireless Mouse,1,799,0,60,COD,Cancelled,Bengaluru,Karnataka,560001,859.0
+ORD1010,C0009,Rohan Kumar,rohan.kumar75@gmail.com,2026-07-11,P108,Electronics,USB-C Cable,5,299,15,60,COD,Returned,Chennai,Tamil Nadu,600001,1330.75
+ORD1011,C0009,Meera Singh,meera.singh15@gmail.com,2026-08-09,P107, electronics ,Python Basics,4,699,0,0,Credit Card,Shipped,HYDERABAD,Delhi,110001,2796.0
+ORD1012,C0025,Sneha Reddy,sneha.reddy71@gmail.com,2026-09-06,P107,Books,Python Basics,5,699,10,60,UPI,Delivered,Mumbai,Maharashtra,400001,3205.5
+ORD1013,C0050,Kiran Kumar,kiran.kumar21@gmail.com,2026-04-22,P109,Fashion,Running Shoes,3,2499,110,60,COD,Delivered,Pune,Maharashtra,411001,7557.0
+ORD1014,C0033,Arjun Patel,arjun.patel48@gmail.com,2026-02-09,P105,Beauty,Face Wash,3,249,20,40,Credit Card,Returned,Hyderabad,Telangana,500001,637.6
+ORD1015,C0039,Nikhil Sharma,nikhil.sharma47@gmail.com,2026-08-26,P109,Fashion,Running Shoes,-2,2499,0,0,Debit Card,Shipped,Bengaluru,Karnataka,560001,9996.0
+ORD1016,C0006,Ananya Reddy,ananya.reddy85@gmail.com,2026-02-02,P101,Electronics,Wireless Mouse,4,799,0,40,COD,Returned,Pune,Maharashtra,411001,3236.0
+ORD1017,C0014,Vikram Das,vikram.das86@gmail.com,2026-04-13,P103,Fashion,Cotton T-Shirt,2,free,20,60,Debit Card,Cancelled,Delhi,Delhi,110001,1018.4
+ORD1018,C0016,Isha Reddy,isha.reddy71@gmail.com,2026-05-31,P109,Fashion,Running Shoes,1,2499,5,0,Credit Card,Returned,Chennai,Tamil Nadu,600001,2374.05
+ORD1019,C0046,Aarav Reddy,aarav.reddy5@gmail.com,2026-02-30,P104,Home,Water Bottle,1,349,0,0,Debit Card,Delivered,Pune,Maharashtra,411001,349.0
+ORD1020,C0043,Ananya Kumar,ananya.kumar74@gmail.com,2026-07-05,P109,Fashion,Running Shoes,2,2499,15,40,Net Banking,Cancelled,Mumbai,Maharashtra,400001,4288.3
+ORD1021,C0052,Kiran Gupta,not-an-email,2026-06-18,P104,Home,Water Bottle,2,349,0,0,Debit Card,Cancelled,Mumbai,Maharashtra,400001,698.0
+ORD1022,C0044,Isha Sharma,isha.sharma44@gmail.com,2026-07-06,P107,Books,Python Basics,1,699,0,80,UPI,Shipped,Pune,Maharashtra,411001,779.0
+ORD1023,C0009,Ananya Gupta,ananya.gupta10@gmail.com,2026-03-05,P104,Home,Water Bottle,2,349,5,80,upi,delivered,Mumbai,Maharashtra,400001,743.1
+ORD1024,C0006,Aarav Sharma,aarav.sharma28@gmail.com,2026-05-04,P102,Electronics,Bluetooth Headphones,2,1999,10,80,COD,Delivered,Chennai,Tamil Nadu,600001,3678.2
+ORD1025,C0025,Kabir Sharma,kabir.sharma94@gmail.com,2026-06-28,P103,Fashion,Cotton T-Shirt,4,599,5,80,Net Banking,Cancelled,Chenn ai,TN,560001,2356.2
+ORD1026,C0014,Ananya Kumar,ananya.kumar41@gmail.com,2026-07-11,P103,Fashion,Cotton T-Shirt,5,599,20,0,UPI,Delivered,Hyderabad,Telangana,500001,2396.0
+ORD1027,C0004,Isha Patel,isha.patel9@gmail.com,2026-06-02,P110,Home,Desk Lamp,1,1299,0,0,Credit Card,Cancelled,Delhi,Delhi,110001,999999
+ORD1028,C0038,Nikhil Singh,nikhil.singh85@gmail.com,2026-04-18,P102,Electronics,Bluetooth Headphones,1,1999,15,0,Net Banking,Returned,Delhi,Delhi,110001,1699.15
+ORD1029,C0014,Meera Kumar,meera.kumar17@gmail.com,2026-04-12,P109,Fashion,Running Shoes,3,2499,0,60,Debit Card,Cancelled,Pune,Maharashtra,ABC123,7557.0
+ORD1030,C0001,Nikhil Reddy,nikhil.reddy69@gmail.com,2026-01-19,P106,Grocery,Coffee Powder,5,450,15,0,Credit Card,Returned,Mumbai,Maharashtra,400001,1912.5
+ORD1031,C0005,   Diya  Singh  ,rohan.rao70@gmail.com,2026-04-23,P105,Beauty,Face Wash,3,249,5,40,Debit Card,Returned,Chennai,Tamil Nadu,600001,749.65
+ORD1032,C0043,Aarav Kumar,aarav.kumar14@gmail.com,2026-08-16,P109,Fashion,Running Shoes,2,2499,5,0,Net Banking,Shipped,Hyderabad,Telangana,500001,4748.1
+,C0046,Vikram Singh,vikram.singh63@gmail.com,2026-05-10,P105,Beauty,Face Wash,2,249,20,60,Debit Card,Delivered,Bengaluru,Karnataka,560001,458.4
+ORD1034,C0054,Rahul Das,rahul.das17@gmail.com,2026-07-17,P102,Electronics,Bluetooth Headphones,1,1999,0,60,Debit Card,Shipped,Bengaluru,Karnataka,560001,2059.0
+ORD1035,C0036,Arjun Das,arjun.das5@gmail.com,2026-05-20,P108,ELECTRONICS,bluetooth HEADPHONES,1,299,0,40,Debit Card,Returned,Hyderabad,Telangana,500001,339.0
+ORD1036,C0009,Rohan Das,rohan.das46@gmail.com,2026-08-19,P109,Fashion,Running Shoes,3,2499,5,0,Credit Card,Shipped,Hyderabad,Telangana,500001,7122.15
+ORD1037,C0040,Meera Das,meera.das23@gmail.com,15-04-2026,P102,Electronics,Bluetooth Headphones,2,1999,0,40,COD,Delivered,Pune,Maharashtra,411001,4038.0
+ORD1038,C0051,Priya Rao,priya.rao90@gmail.com,2026-07-21,P103,Fashion,Cotton T-Shirt,2,599,5,40,UPI,Cancelled,Mumbai,Maharashtra,400001,1178.1
+ORD1039,C0015,Sana Gupta,sana.gupta30@gmail.com,2026-07-30,P101,Electronics,Wireless Mouse,4,799,5,N/A,Credit Card,Delivered,Chennai,Tamil Nadu,600001,3096.2
+ORD1040,C0018,Kabir Rao,kabir.rao69@gmail.com,2026-06-23,P104,Home,Water Bottle,3,349,5,80,Debit Card,Delivered,Hyderabad,Telangana,500001,1074.65
+ORD1041,C0012,Nikhil Kumar,nikhil.kumar56@gmail.com,2026-06-02,P102,Electronics,Bluetooth Headphones,0,1999,0,0,Debit Card,Pending,Delhi,Delhi,110001,5997.0
+ORD1042,C0025,Sneha Reddy,sneha.reddy56@gmail.com,2026-07-01,P107,Books,Python Basics,2,699,5,0,UPI,Returned,Delhi,Delhi,110001,1328.1
+ORD1043,C0024,Rahul Singh,rahul.singh41@gmail.com,2026-06-09,P109,Fashion,Running Shoes,1,-150,20,60,UPI,Pending,Mumbai,Maharashtra,400001,2059.2
+ORD1044,C0021,Vikram Das,vikram.das54@gmail.com,2026-02-19,P109,Fashion,Running Shoes,3,2499,15,40,COD,Shipped,Mumbai,Maharashtra,400001,6412.45
+ORD1045,C0026,Sneha Kumar,sneha.kumar56@gmail.com,2026-02-23,P110,Home,Desk Lamp,1,1299,twenty,60,Net Banking,Returned,Delhi,Delhi,110001,1294.05
+ORD1046,C0029,Isha Gupta,isha.gupta95@gmail.com,2026-07-23,P106,Grocery,Coffee Powder,2,450,15,80,Credit Card,Delivered,Pune,Maharashtra,411001,845.0
+ORD1047,C0006,Arjun Rao,arjun.rao4@gmail.com,2026-02-07,P105,Beauty,Face Wash,3,249,0,40,UPI,Unknown,Chennai,Tamil Nadu,600001,787.0
+ORD1048,C0030,Sneha Reddy,sneha.reddy52@gmail.com,2026-05-07,P108,Electronics,USB-C Cable,5,299,0,80,Credit Card,Shipped,Mumbai,Maharashtra,400001,1575.0
+ORD1049,,Nikhil Reddy,nikhil.reddy72@gmail.com,2026-01-13,P101,Electronics,Wireless Mouse,2,799,0,80,Credit Card,Delivered,Mumbai,Maharashtra,400001,1678.0
+ORD1050,C0043,Rohan Gupta,rohan.gupta97@gmail.com,2026-09-01,P108,Electronics,USB-C Cable,5,299,15,60,COD,Returned,Delhi,Delhi,110001,1330.75
+ORD1051,C0011,Kabir Gupta,customer@@gmail.com,2026-07-12,P109,Fashion,Running Shoes,4,2499,10,60,Debit Card,Returned,Pune,Maharashtra,411001,9056.4
+ORD1052,C0018,Rahul Singh,rahul.singh35@gmail.com,2026-03-02,P108,Electronics,USB-C Cable,1,299,20,60,Debit Card,Pending,Mumbai,Maharashtra,400001,299.2
+ORD1053,C0010,Diya Patel,diya.patel28@gmail.com,2026-06-30,P109,Fashion,Running Shoes,4,2499,20,40,UPI,Cancelled,Chennai,Tamil Nadu,600001,
+ORD1054,C0027,Meera Gupta,meera.gupta99@gmail.com,2026-08-20,P107,Books,Python Basics,2,699,10,80,Net Banking,Delivered,Hyderabad,Telangana,500001,1338.2
+ORD1055,C0001,Kabir Gupta,kabir.gupta96@gmail.com,2027-01-01,P110,Home,Desk Lamp,3,1299,10,80,Net Banking,Returned,Bengaluru,Karnataka,560001,3587.3
+ORD1056,C0018,Isha Singh,isha.singh86@gmail.com,2026-03-28,P104,Home,Water Bottle,4,349,0,80,COD,Shipped,Mumbai,Maharashtra,400001,1476.0
+ORD1057,C0040,Nikhil Patel,nikhil.patel83@gmail.com,2026-01-22,P108,GROCERY,USB-C Cable,1,299,10,0,COD,Shipped, bangalore ,Delhi,110001,269.1
+ORD1058,C0017,Rohan Sharma,rohan.sharma44@gmail.com,2026-03-25,P108,Electronics,USB-C Cable,3,299,0,80,COD,Pending,Mumbai,Maharashtra,400001,977.0
+ORD1059,C0031,Vikram Reddy,vikram.reddy84@gmail.com,2026-02-27,P107,Books,Python Basics,5,699,0,60,cash on delivery,Delivered,Hyderabad,Telangana,500001,3555.0
+ORD1010,C0009,Rohan Kumar,rohan.kumar75@gmail.com,2026-07-11,P108,Electronics,USB-C Cable,5,299,15,60,COD,Returned,Chennai,Tamil Nadu,600001,1330.75
+ORD1061,C0050,Isha Kumar,isha.kumar21@gmail.com,2026-07-19,P104,Home,Water Bottle,2,349,15,0,Debit Card,Delivered,Bengaluru,Karnataka,56001,593.3
+ORD1062,C0037,Aarav Kumar,aarav.kumar76@gmail.com,2026-01-20,P110,Home,Desk Lamp,4,1299,10,40,Credit Card,Delivered,Pune,Maharashtra,411001,4716.4
+ORD1063,C0051,Sana Reddy,sana.reddy48@gmail.com,2026-06-19,P999,Beauty,Face Wash,1,249,5,80,UPI,Returned,Delhi,Delhi,110001,316.55
+ORD1064,C0053,Aarav Das,aarav.das59@gmail.com,2026-06-12,P106,Grocery,Coffee Powder,1,450,10,60,Credit Card,Cancelled,Mumbai,Maharashtra,400001,465.0
+ORD1065,C0040,Priya Kumar,priya.kumar94@gmail.com,2026-07-31,P103,Fashion,Cotton T-Shirt,2.5,599,10,80,Net Banking,Pending,Delhi,Delhi,110001,2236.4
+ORD1066,C0054,Sana Singh,sana.singh60@gmail.com,2026-07-12,P106,Grocery,Coffee Powder,3,450,10,40,Net Banking,Returned,Hyderabad,Telangana,500001,1255.0
+ORD1067,C0032,Meera Sharma,meera.sharma34@gmail.com,2026-04-01,P107,Books,Python Basics,2,"1,299",10,40,Debit Card,Pending,Bengaluru,Karnataka,560001,1298.2
+ORD1068,C0036,Priya Kumar,priya.kumar93@gmail.com,2026-03-03,P110,Home,Desk Lamp,5,1299,0,0,COD,Cancelled,Hyderabad,Telangana,500001,6495.0
+ORD1069,C0045,Kiran Singh,kiran.singh38@gmail.com,2026-01-24,P109,Fashion,Running Shoes,4,2499,-5,0,Credit Card,Cancelled,Mumbai,Maharashtra,400001,8996.4
+ORD1070,C0031,Vikram Rao,vikram.rao71@gmail.com,2026-07-10,P104,Home,Water Bottle,5,349,5,80,Debit Card,Pending,Delhi,Delhi,110001,1737.75
+ORD1071,C0017,,vikram.kumar16@gmail.com,2026-03-22,P108,Electronics,USB-C Cable,1,299,20,40,Net Banking,Shipped,Chennai,Tamil Nadu,600001,279.2
+ORD1072,C0018,Ananya Gupta,ananya.gupta25@gmail.com,2026-01-26,P104,Home,Water Bottle,5,349,15,60,Debit Card,Shipped,Pune,Maharashtra,411001,1543.25
+ORD1073,C0001,Rohan Kumar,rohan.kumar7@gmail.com,,P106,Grocery,Coffee Powder,5,450,0,60,Net Banking,Pending,Pune,Maharashtra,411001,2310.0
+ORD1074,C0007,Rahul Gupta,rahul.gupta57@gmail.com,2026-05-03,P103,Fashion,Cotton T-Shirt,5,599,5,80,Debit Card,Shipped,Hyderabad,Telangana,500001,2925.25
+ORD1075,C0008,Vikram Gupta,vikram.gupta81@gmail.com,2026-05-28,P101,Electronics,Wireless Mouse,4,799,10,0,UPI,DELIVERED ,Hyderabad,Telangana,500001,2876.4
+ORD1076,C0006,Kiran Kumar,kiran.kumar77@gmail.com,2026-06-05,P103,Fashion,Cotton T-Shirt,1,599,15,80,Net Banking,Shipped,Chennai,Tamil Nadu,600001,589.15
+ORD1077,C0029,Kabir Gupta,kabir.gupta80@gmail.com,2026-05-26,P109,Fashion,Running Shoes,5,2499,10,60,UPI,Returned,Bengaluru,,560001,11305.5
+ORD1078,C0041,Kiran Singh,kiran.singh31@gmail.com,2026-02-10,P102,Electronics,Bluetooth Headphones,3,1999,20,0,Credit Card,Returned,Chennai,Tamil Nadu,600001,4797.6
+ORD1079,C0027,Rohan Sharma,rohan.sharma30@gmail.com,2026-01-09,P102,Electronics,Bluetooth Headphones,5,1999,10,-20,Debit Card,Pending,Mumbai,Maharashtra,400001,9055.5
+ORD1030,C0001,Nikhil Reddy,nikhil.reddy69@gmail.com,2026-01-19,P106,Grocery,Coffee Powder,5,450,15,0,Credit Card,Returned,Mumbai,Maharashtra,400001,1912.5
+ORD1081,C0053,Nikhil Kumar,nikhil.kumar40@gmail.com,2026-07-22,P103,Fashion,Cotton T-Shirt,two,599,0,40,Net Banking,Returned,Chennai,Tamil Nadu,600001,639.0
+ORD1082,C0030,Isha Reddy,isha.reddy35@gmail.com,2026-08-30,P105,Beauty,Face Wash,3,249,20,80,Net Banking,Returned,Pune,Maharashtra,411001,677.6
+ORD1083,C0039,Isha Reddy,isha.reddy33@gmail.com,04/05/2026,P108,Electronics,USB-C Cable,4,299,20,60,UPI,Delivered,Hyderabad,Telangana,500001,1016.8
+ORD1084,C0049,Rahul Sharma,rahul.sharma97@gmail.com,2026-07-15,P104,Home,Water Bottle,3,349,15,0,Credit Card,Cancelled,Pune,Maharashtra,411001,889.95
+ORD1085,C0018,Rahul Gupta,  user@example.com  ,2026-09-06,P109,Fashion,Running Shoes,5,2499,10,80,COD,Pending,Chennai,Tamil Nadu,600001,11325.5
+ORD1086,C0043,Meera Rao,meera.rao64@gmail.com,2026-06-27,P107,Books,Python Basics,2,699,5,80,Debit Card,Cancelled,Hyderabad,Telangana,500001,1408.1
+ORD1087,C0006,Aarav Gupta,aarav.gupta99@gmail.com,2026-09-06,P109,Fashion,Running Shoes,3,2499,5,0,COD,Returned,Hyd,Telangana,560001,7122.15
+ORD1088,C0027,Rahul Gupta,rahul.gupta97@gmail.com,2026-06-09,P101,Electronics,Wireless Mouse,2,799,15,60,COD,Cancelled,Hyderabad,Telangana,500001,1418.3
+ORD1089,C0036,Ananya Kumar,ananya.kumar4@gmail.com,2026-02-01,P101,Electronics,Wireless Mouse,3,799,10,80,Net Banking,Shipped,Chennai,Tamil Nadu,600001,"₹2,450"
+ORD1040,C0036,Vikram Sharma,vikram.sharma16@gmail.com,2026-04-29,P103,Fashion,Cotton T-Shirt,1,599,0,0,Credit Card,Cancelled,Mumbai,Maharashtra,400001,599.0
+ORD1091,C0027,Arjun Kumar,arjun.kumar19@gmail.com,2026-05-22,P105,Beauty,Wireless  Mouse  ,4,249,0,80,COD,Shipped,Mumbai,Maharashtra,400001,1076.0
+ORD1092,C0005,Arjun Patel,arjun.patel1@gmail.com,2026-07-30,P110,Home,Desk Lamp,4,1299,5,60,Debit Card,Pending,Bengaluru,Karnataka,560001,4996.2
+ORD1093,C0010,Sneha Gupta,sneha.gupta71@gmail.com,2026-03-27,P110,Home,Desk Lamp,5,,10,60,Net Banking,Cancelled,Mumbai,Maharashtra,400001,5905.5
+ORD1094,C0013,Nikhil Rao,nikhil.rao53@gmail.com,2026-03-01,P108,Electronics,USB-C Cable,2,299,15,80,UPI,Pending,Pune,Maharashtra,411001,588.3
+ORD1095,C0025,Priya Das,priya.das65@gmail.com,2026-02-02,P108,Electronics,USB-C Cable,2,299,,0,Net Banking,Pending,Pune,Maharashtra,411001,538.2
+ORD1096,C0007,Sana Gupta,sana.gupta84@gmail.com,2026-04-15,P102,Electronics,Bluetooth Headphones,4,1999,0,40,Credit Card,Delivered,Delhi,Delhi,110001,8036.0
+ORD1097,C0022,Kiran Kumar,kiran.kumar43@gmail.com,2026-08-07,P108,Electronics,USB-C Cable,4,299,20,0,Net Banking,Refunded,Delhi,Delhi,110001,956.8
+ORD1098,C0035,Rahul Gupta,rahul.gupta88@gmail.com,2026-06-11,P106,Grocery,Coffee Powder,5,450,0,40,Debit Card,Shipped,Hyderabad,Telangana,500001,2290.0
+ORD1099,C0049,Kabir Reddy,kabir.reddy39@gmail.com,2026-06-27,P102,Electronics,Bluetooth Headphones,1,1999,10,40,UPI ,Delivered,mumbai,Maharashtra,411001,1839.1
+ORD1100,C0019,Kiran Sharma,kiran.sharma68@gmail.com,2026-03-04,P106,Grocery,Coffee Powder,3,450,10,40,COD,Returned,Bengaluru,Karnataka,560001,1255.0
