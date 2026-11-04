@@ -744,17 +744,3 @@ This practical covered the complete path from local CSV files to SQL analysis in
 
 `CREATE DATABASE` · `CREATE SCHEMA` · `CREATE WAREHOUSE` · `CREATE TABLE` · `CREATE FILE FORMAT` · `CREATE STAGE` · `LIST` · `COPY INTO` · `VALIDATION_MODE` · `TRIM` · `UPPER` · `LOWER` · `COALESCE` · `NULLIF` · `CREATE TABLE AS SELECT` · `JOIN` · `GROUP BY` · `SUM` · `COUNT` · date filters · Query History · Query Profile
 
-## 12. Screenshot and file organization
-
-This README is meant to sit inside the same `SnowFlake` folder as the 40 screenshot files. Their links are **relative**, so they work locally and in a Git repository as long as the names remain unchanged.
-
-```text
-SnowFlake/
-├── README.md
-├── Screenshot 2026-11-04 at 5.38.33 PM.png
-├── Screenshot 2026-11-04 at 5.39.09 PM.png
-├── ...
-└── Screenshot 2026-11-04 at 6.03.16 PM.png
-```
-
-**Note on the image captions:** The screenshots are embedded in chronological timestamp order. The written steps explain the SQL workflow; the screenshots serve as the visual record of the session. I have not inferred detailed on-screen results from filenames alone.
