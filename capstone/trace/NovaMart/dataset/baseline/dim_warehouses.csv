@@ -1,0 +1,7 @@
+warehouse_id,warehouse_name,city,state,region,capacity_units,status
+WH01,NovaMart Distribution Hyderabad,Hyderabad,Telangana,South,18350,ACTIVE
+WH02,NovaMart Distribution Bengaluru,Bengaluru,Karnataka,South,37713,ACTIVE
+WH03,NovaMart Distribution Mumbai,Mumbai,Maharashtra,West,37451,ACTIVE
+WH04,NovaMart Distribution Delhi,Delhi,Delhi,North,36986,ACTIVE
+WH05,NovaMart Distribution Kolkata,Kolkata,West Bengal,East,20637,ACTIVE
+WH06,NovaMart Distribution Ahmedabad,Ahmedabad,Gujarat,West,19470,ACTIVE

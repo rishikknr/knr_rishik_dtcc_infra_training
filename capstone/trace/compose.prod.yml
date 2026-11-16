@@ -1,0 +1,63 @@
+
+name: trace-app
+
+services:
+  frontend:
+    image: 117889972903.dkr.ecr.ap-south-1.amazonaws.com/trace-staging-frontend:${TRACE_IMAGE_TAG:?Image tag required}
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8080:8080"
+      - "0.0.0.0:80:80"
+    depends_on:
+      - backend
+    networks:
+      - trace-network
+
+  backend:
+    image: 117889972903.dkr.ecr.ap-south-1.amazonaws.com/trace-staging-backend:${TRACE_IMAGE_TAG:?Image tag required}
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:8081:8081"
+
+    env_file:
+      - path: /opt/trace/secrets/backend.env
+        format: raw
+
+    environment:
+      SPRING_PROFILES_ACTIVE: staging
+      SERVER_ADDRESS: 0.0.0.0
+      SERVER_PORT: "8081"
+
+      SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/trace
+      SPRING_DATASOURCE_USERNAME: trace_runtime
+
+      SPRING_FLYWAY_URL: jdbc:postgresql://postgres:5432/trace
+      SPRING_FLYWAY_USER: trace_migrator
+
+      TRACE_PROCESSOR_URL: http://processor:8000
+      # Allow the explicitly requested public HTTP staging access. Tomcat still
+      # marks cookies Secure when the trusted forwarded request scheme is HTTPS.
+      TRACE_SECURE_COOKIES: "false"
+
+      JAVA_TOOL_OPTIONS: "-Xms128m -Xmx512m"
+
+    depends_on:
+      - processor
+    networks:
+      - trace-network
+
+  processor:
+    image: 117889972903.dkr.ecr.ap-south-1.amazonaws.com/trace-staging-processor:${TRACE_IMAGE_TAG:?Image tag required}
+    restart: unless-stopped
+
+    env_file:
+      - path: /opt/trace/secrets/processor.env
+        format: raw
+
+    networks:
+      - trace-network
+
+networks:
+  trace-network:
+    external: true
+    name: trace_default

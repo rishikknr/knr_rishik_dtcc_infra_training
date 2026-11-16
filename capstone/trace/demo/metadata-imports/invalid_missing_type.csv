@@ -1,0 +1,2 @@
+database,schema,table,column
+NOVAMART,RAW,ORDERS,ORDER_ID

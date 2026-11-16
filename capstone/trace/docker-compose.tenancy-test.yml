@@ -1,0 +1,17 @@
+# Disposable integration database only. Does not touch the existing port 5433 or volume.
+services:
+  tenancy-test-db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: trace_tenancy_test
+      POSTGRES_USER: trace_test_admin
+      POSTGRES_PASSWORD: trace-test-admin-only
+    ports:
+      - "127.0.0.1:55433:5432"
+    tmpfs:
+      - /var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U trace_test_admin -d trace_tenancy_test"]
+      interval: 2s
+      timeout: 3s
+      retries: 20

@@ -1,0 +1,23 @@
+store_id,store_name,city,state,region,store_type,opened_on,status
+ST000,NovaMart Online,Online,All India,National,ECOMMERCE,2023-01-01,ACTIVE
+ST001,NovaMart Hyderabad,Hyderabad,Telangana,South,PHYSICAL,2024-05-01,ACTIVE
+ST002,NovaMart Bengaluru,Bengaluru,Karnataka,South,PHYSICAL,2023-03-01,ACTIVE
+ST003,NovaMart Chennai,Chennai,Tamil Nadu,South,PHYSICAL,2024-06-01,ACTIVE
+ST004,NovaMart Mumbai,Mumbai,Maharashtra,West,PHYSICAL,2021-03-01,ACTIVE
+ST005,NovaMart Pune,Pune,Maharashtra,West,PHYSICAL,2021-01-01,ACTIVE
+ST006,NovaMart Delhi,Delhi,Delhi,North,PHYSICAL,2024-08-01,ACTIVE
+ST007,NovaMart Noida,Noida,Uttar Pradesh,North,PHYSICAL,2023-03-01,ACTIVE
+ST008,NovaMart Jaipur,Jaipur,Rajasthan,North,PHYSICAL,2023-06-01,ACTIVE
+ST009,NovaMart Kolkata,Kolkata,West Bengal,East,PHYSICAL,2021-11-01,ACTIVE
+ST010,NovaMart Ahmedabad,Ahmedabad,Gujarat,West,PHYSICAL,2023-09-01,ACTIVE
+ST011,NovaMart Kochi,Kochi,Kerala,South,PHYSICAL,2022-02-01,RENOVATION
+ST012,NovaMart Visakhapatnam,Visakhapatnam,Andhra Pradesh,South,PHYSICAL,2022-12-01,ACTIVE
+ST013,NovaMart Lucknow,Lucknow,Uttar Pradesh,North,PHYSICAL,2021-01-01,ACTIVE
+ST014,NovaMart Bhubaneswar,Bhubaneswar,Odisha,East,PHYSICAL,2024-11-01,ACTIVE
+ST015,NovaMart Indore,Indore,Madhya Pradesh,Central,PHYSICAL,2023-02-01,ACTIVE
+ST016,NovaMart Coimbatore,Coimbatore,Tamil Nadu,South,PHYSICAL,2021-06-01,ACTIVE
+ST017,NovaMart Chandigarh,Chandigarh,Chandigarh,North,PHYSICAL,2024-11-01,ACTIVE
+ST018,NovaMart Surat,Surat,Gujarat,West,PHYSICAL,2022-05-01,ACTIVE
+ST019,NovaMart Nagpur,Nagpur,Maharashtra,Central,PHYSICAL,2023-08-01,ACTIVE
+ST020,NovaMart Mysuru,Mysuru,Karnataka,South,PHYSICAL,2024-12-01,ACTIVE
+ST021,NovaMart Guwahati,Guwahati,Assam,East,PHYSICAL,2024-11-01,ACTIVE

@@ -1,0 +1,47 @@
+
+.env
+.trace-local/
+
+processor/.venv/
+**/__pycache__/
+backend/releases/
+frontend/test-results/
+frontend/playwright-report/
+
+
+# Credentials and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.p8
+*.key
+*.p12
+secrets/
+credentials.json
+token.json
+
+# Java / Spring Boot
+backend/target/
+*.class
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# React / Node
+node_modules/
+frontend/dist/
+dist/
+
+# IDE and OS
+.DS_Store
+.idea/
+.vscode/
+
+# Temporary files
+*.log
+tmp/

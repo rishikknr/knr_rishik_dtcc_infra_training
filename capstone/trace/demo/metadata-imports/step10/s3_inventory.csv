@@ -1,0 +1,2 @@
+bucket,key,size,last_modified,etag
+novamart-sales,orders/orders.csv,1200,2026-11-10T00:00:00Z,opaque-etag-not-a-content-hash
