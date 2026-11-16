@@ -1,0 +1,76 @@
+supplier_id,supplier_name,city,state,country,supplier_tier,lead_time_days,status
+SUP0001,Nova Supply Partner 001,Jaipur,Rajasthan,India,STANDARD,8,ACTIVE
+SUP0002,Nova Supply Partner 002,Indore,Madhya Pradesh,India,TRIAL,16,ACTIVE
+SUP0003,Nova Supply Partner 003,Hyderabad,Telangana,India,PREFERRED,14,ACTIVE
+SUP0004,Nova Supply Partner 004,Jaipur,Rajasthan,India,STANDARD,8,ACTIVE
+SUP0005,Nova Supply Partner 005,Indore,Madhya Pradesh,India,TRIAL,18,ACTIVE
+SUP0006,Nova Supply Partner 006,Hyderabad,Telangana,India,PREFERRED,18,ACTIVE
+SUP0007,Nova Supply Partner 007,Jaipur,Rajasthan,India,STANDARD,28,ACTIVE
+SUP0008,Nova Supply Partner 008,Indore,Madhya Pradesh,India,TRIAL,30,ACTIVE
+SUP0009,Nova Supply Partner 009,Hyderabad,Telangana,India,PREFERRED,28,ACTIVE
+SUP0010,Nova Supply Partner 010,Jaipur,Rajasthan,India,STANDARD,9,ACTIVE
+SUP0011,Nova Supply Partner 011,Indore,Madhya Pradesh,India,TRIAL,25,ACTIVE
+SUP0012,Nova Supply Partner 012,Hyderabad,Telangana,India,PREFERRED,16,ACTIVE
+SUP0013,Nova Supply Partner 013,Jaipur,Rajasthan,India,STANDARD,24,ACTIVE
+SUP0014,Nova Supply Partner 014,Indore,Madhya Pradesh,India,TRIAL,12,ACTIVE
+SUP0015,Nova Supply Partner 015,Hyderabad,Telangana,India,PREFERRED,29,ACTIVE
+SUP0016,Nova Supply Partner 016,Jaipur,Rajasthan,India,STANDARD,4,ACTIVE
+SUP0017,Nova Supply Partner 017,Indore,Madhya Pradesh,India,TRIAL,7,ACTIVE
+SUP0018,Nova Supply Partner 018,Hyderabad,Telangana,India,PREFERRED,22,ACTIVE
+SUP0019,Nova Supply Partner 019,Jaipur,Rajasthan,India,STANDARD,11,SUSPENDED
+SUP0020,Nova Supply Partner 020,Indore,Madhya Pradesh,India,TRIAL,17,ACTIVE
+SUP0021,Nova Supply Partner 021,Hyderabad,Telangana,India,PREFERRED,15,ACTIVE
+SUP0022,Nova Supply Partner 022,Jaipur,Rajasthan,India,STANDARD,7,ACTIVE
+SUP0023,Nova Supply Partner 023,Indore,Madhya Pradesh,India,TRIAL,6,ACTIVE
+SUP0024,Nova Supply Partner 024,Hyderabad,Telangana,India,PREFERRED,11,ACTIVE
+SUP0025,Nova Supply Partner 025,Jaipur,Rajasthan,India,STANDARD,3,ACTIVE
+SUP0026,Nova Supply Partner 026,Indore,Madhya Pradesh,India,TRIAL,15,ACTIVE
+SUP0027,Nova Supply Partner 027,Hyderabad,Telangana,India,PREFERRED,15,ACTIVE
+SUP0028,Nova Supply Partner 028,Jaipur,Rajasthan,India,STANDARD,23,ACTIVE
+SUP0029,Nova Supply Partner 029,Indore,Madhya Pradesh,India,TRIAL,25,ACTIVE
+SUP0030,Nova Supply Partner 030,Hyderabad,Telangana,India,PREFERRED,25,ACTIVE
+SUP0031,Nova Supply Partner 031,Jaipur,Rajasthan,India,STANDARD,5,ACTIVE
+SUP0032,Nova Supply Partner 032,Indore,Madhya Pradesh,India,TRIAL,13,ACTIVE
+SUP0033,Nova Supply Partner 033,Hyderabad,Telangana,India,PREFERRED,26,ACTIVE
+SUP0034,Nova Supply Partner 034,Jaipur,Rajasthan,India,STANDARD,20,ACTIVE
+SUP0035,Nova Supply Partner 035,Indore,Madhya Pradesh,India,TRIAL,28,ACTIVE
+SUP0036,Nova Supply Partner 036,Hyderabad,Telangana,India,PREFERRED,23,ACTIVE
+SUP0037,Nova Supply Partner 037,Jaipur,Rajasthan,India,STANDARD,9,ACTIVE
+SUP0038,Nova Supply Partner 038,Indore,Madhya Pradesh,India,TRIAL,18,SUSPENDED
+SUP0039,Nova Supply Partner 039,Hyderabad,Telangana,India,PREFERRED,9,ACTIVE
+SUP0040,Nova Supply Partner 040,Jaipur,Rajasthan,India,STANDARD,17,ACTIVE
+SUP0041,Nova Supply Partner 041,Indore,Madhya Pradesh,India,TRIAL,14,ACTIVE
+SUP0042,Nova Supply Partner 042,Hyderabad,Telangana,India,PREFERRED,18,ACTIVE
+SUP0043,Nova Supply Partner 043,Jaipur,Rajasthan,India,STANDARD,16,ACTIVE
+SUP0044,Nova Supply Partner 044,Indore,Madhya Pradesh,India,TRIAL,24,ACTIVE
+SUP0045,Nova Supply Partner 045,Hyderabad,Telangana,India,PREFERRED,29,ACTIVE
+SUP0046,Nova Supply Partner 046,Jaipur,Rajasthan,India,STANDARD,12,ACTIVE
+SUP0047,Nova Supply Partner 047,Indore,Madhya Pradesh,India,TRIAL,24,ACTIVE
+SUP0048,Nova Supply Partner 048,Hyderabad,Telangana,India,PREFERRED,10,ACTIVE
+SUP0049,Nova Supply Partner 049,Jaipur,Rajasthan,India,STANDARD,3,ACTIVE
+SUP0050,Nova Supply Partner 050,Indore,Madhya Pradesh,India,TRIAL,29,ACTIVE
+SUP0051,Nova Supply Partner 051,Hyderabad,Telangana,India,PREFERRED,28,ACTIVE
+SUP0052,Nova Supply Partner 052,Jaipur,Rajasthan,India,STANDARD,10,ACTIVE
+SUP0053,Nova Supply Partner 053,Indore,Madhya Pradesh,India,TRIAL,14,ACTIVE
+SUP0054,Nova Supply Partner 054,Hyderabad,Telangana,India,PREFERRED,20,ACTIVE
+SUP0055,Nova Supply Partner 055,Jaipur,Rajasthan,India,STANDARD,18,ACTIVE
+SUP0056,Nova Supply Partner 056,Indore,Madhya Pradesh,India,TRIAL,11,ACTIVE
+SUP0057,Nova Supply Partner 057,Hyderabad,Telangana,India,PREFERRED,3,SUSPENDED
+SUP0058,Nova Supply Partner 058,Jaipur,Rajasthan,India,STANDARD,24,ACTIVE
+SUP0059,Nova Supply Partner 059,Indore,Madhya Pradesh,India,TRIAL,9,ACTIVE
+SUP0060,Nova Supply Partner 060,Hyderabad,Telangana,India,PREFERRED,21,ACTIVE
+SUP0061,Nova Supply Partner 061,Jaipur,Rajasthan,India,STANDARD,8,ACTIVE
+SUP0062,Nova Supply Partner 062,Indore,Madhya Pradesh,India,TRIAL,25,ACTIVE
+SUP0063,Nova Supply Partner 063,Hyderabad,Telangana,India,PREFERRED,28,ACTIVE
+SUP0064,Nova Supply Partner 064,Jaipur,Rajasthan,India,STANDARD,15,ACTIVE
+SUP0065,Nova Supply Partner 065,Indore,Madhya Pradesh,India,TRIAL,8,ACTIVE
+SUP0066,Nova Supply Partner 066,Hyderabad,Telangana,India,PREFERRED,27,ACTIVE
+SUP0067,Nova Supply Partner 067,Jaipur,Rajasthan,India,STANDARD,23,ACTIVE
+SUP0068,Nova Supply Partner 068,Indore,Madhya Pradesh,India,TRIAL,19,ACTIVE
+SUP0069,Nova Supply Partner 069,Hyderabad,Telangana,India,PREFERRED,21,ACTIVE
+SUP0070,Nova Supply Partner 070,Jaipur,Rajasthan,India,STANDARD,28,ACTIVE
+SUP0071,Nova Supply Partner 071,Indore,Madhya Pradesh,India,TRIAL,25,ACTIVE
+SUP0072,Nova Supply Partner 072,Hyderabad,Telangana,India,PREFERRED,12,ACTIVE
+SUP0073,Nova Supply Partner 073,Jaipur,Rajasthan,India,STANDARD,6,ACTIVE
+SUP0074,Nova Supply Partner 074,Indore,Madhya Pradesh,India,TRIAL,15,ACTIVE
+SUP0075,Nova Supply Partner 075,Hyderabad,Telangana,India,PREFERRED,20,ACTIVE

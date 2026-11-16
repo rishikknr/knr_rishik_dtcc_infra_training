@@ -1,0 +1,3 @@
+order_channel,recognized_orders,orders_with_processed_refunds,gross_sales_ex_tax_inr,processed_refunds_ex_tax_inr,net_revenue_inr
+IN_STORE,3119,280,276891165.13,13953031.66,262938133.47
+ONLINE,4276,377,401076359.56,21308192.35,379768167.21

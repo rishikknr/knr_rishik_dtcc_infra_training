@@ -1,0 +1,4 @@
+external_key,name,asset_type
+manual:sales-model,Sales Model,SEMANTIC_MODEL
+manual:sales-report,Executive Sales,REPORT
+manual:revenue-measure,Net Revenue,MEASURE

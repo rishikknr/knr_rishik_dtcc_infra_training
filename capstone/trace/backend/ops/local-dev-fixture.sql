@@ -1,0 +1,53 @@
+-- Operator-only fixture; no HTTP bootstrap endpoint and no production login.
+\set ON_ERROR_STOP on
+\getenv bootstrap_opt_in TRACE_LOCAL_BOOTSTRAP
+\if :{?bootstrap_opt_in}
+\else
+  DO $$ BEGIN RAISE EXCEPTION 'Local fixture requires TRACE_LOCAL_BOOTSTRAP=I_UNDERSTAND_LOCAL_ONLY'; END $$;
+\endif
+SELECT :'bootstrap_opt_in' = 'I_UNDERSTAND_LOCAL_ONLY' AS allowed \gset
+\if :allowed
+\else
+  DO $$ BEGIN RAISE EXCEPTION 'Local fixture requires TRACE_LOCAL_BOOTSTRAP=I_UNDERSTAND_LOCAL_ONLY'; END $$;
+\endif
+
+BEGIN;
+INSERT INTO users(id,email,display_name) VALUES
+ ('30000000-0000-0000-0000-000000000001','shared@trace.local','Local multi-organization user'),
+ ('30000000-0000-0000-0000-000000000002','retail-importer@trace.local','Local RetailHub editor')
+ON CONFLICT (id) DO NOTHING;
+
+SELECT set_config('trace.organization_id','10000000-0000-0000-0000-000000000001',true);
+INSERT INTO organizations(id,name,slug) VALUES
+ ('10000000-0000-0000-0000-000000000001','NovaMart','novamart') ON CONFLICT (id) DO NOTHING;
+INSERT INTO organization_memberships(organization_id,user_id,role) VALUES
+ ('10000000-0000-0000-0000-000000000001','30000000-0000-0000-0000-000000000001','OWNER')
+ON CONFLICT (organization_id,user_id) DO NOTHING;
+INSERT INTO teams(id,organization_id,name) VALUES
+ ('40000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','Data') ON CONFLICT (id) DO NOTHING;
+INSERT INTO team_memberships(organization_id,team_id,user_id,role) VALUES
+ ('10000000-0000-0000-0000-000000000001','40000000-0000-0000-0000-000000000001','30000000-0000-0000-0000-000000000001','OWNER')
+ON CONFLICT (organization_id,team_id,user_id) DO NOTHING;
+INSERT INTO source_connections(id,organization_id,name,platform,ingestion_mode,owner_team_id) VALUES
+ ('50000000-0000-0000-0000-000000000001','10000000-0000-0000-0000-000000000001','Snowflake','SNOWFLAKE','METADATA_IMPORT','40000000-0000-0000-0000-000000000001')
+ON CONFLICT (id) DO NOTHING;
+COMMIT;
+
+BEGIN;
+SELECT set_config('trace.organization_id','20000000-0000-0000-0000-000000000001',true);
+INSERT INTO organizations(id,name,slug) VALUES
+ ('20000000-0000-0000-0000-000000000001','RetailHub','retailhub') ON CONFLICT (id) DO NOTHING;
+INSERT INTO organization_memberships(organization_id,user_id,role) VALUES
+ ('20000000-0000-0000-0000-000000000001','30000000-0000-0000-0000-000000000001','MEMBER'),
+ ('20000000-0000-0000-0000-000000000001','30000000-0000-0000-0000-000000000002','MEMBER')
+ON CONFLICT (organization_id,user_id) DO NOTHING;
+INSERT INTO teams(id,organization_id,name) VALUES
+ ('40000000-0000-0000-0000-000000000002','20000000-0000-0000-0000-000000000001','Data') ON CONFLICT (id) DO NOTHING;
+INSERT INTO team_memberships(organization_id,team_id,user_id,role) VALUES
+ ('20000000-0000-0000-0000-000000000001','40000000-0000-0000-0000-000000000002','30000000-0000-0000-0000-000000000001','VIEWER'),
+ ('20000000-0000-0000-0000-000000000001','40000000-0000-0000-0000-000000000002','30000000-0000-0000-0000-000000000002','EDITOR')
+ON CONFLICT (organization_id,team_id,user_id) DO NOTHING;
+INSERT INTO source_connections(id,organization_id,name,platform,ingestion_mode,owner_team_id) VALUES
+ ('50000000-0000-0000-0000-000000000002','20000000-0000-0000-0000-000000000001','Snowflake','SNOWFLAKE','METADATA_IMPORT','40000000-0000-0000-0000-000000000002')
+ON CONFLICT (id) DO NOTHING;
+COMMIT;
